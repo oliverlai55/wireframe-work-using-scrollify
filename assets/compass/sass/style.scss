@@ -1,0 +1,158 @@
+@import 'compass/css3';
+
+
+.header-wrapper{
+	margin:0 5% 5% 5%;
+	background-color: white;
+	.div-header{
+		overflow: hidden;
+	}
+
+	#logo-wrapper-small{
+		padding: 2%;
+		width: 11%;
+		float: left;
+		#logo-small{
+			font-size: 26px;
+			font-family: Arial;
+			background: #e0e0e0;
+			padding: 0% 10%;
+
+		}
+	}
+}
+
+#img-small{
+	width: 72%;
+	margin-top:55%;
+}
+
+.navbar-inverse{
+	width: 36%;
+    margin-top: 6%;
+    float: right;
+    padding: 0 3%;
+    .navbar-inverse:hover{
+    	color:white;
+    }
+}
+
+
+.div-header-body{
+	margin: 15% 34%;
+
+	#logo-wrapper-big{
+		width: 100%;
+		padding: 5%;
+		#img-wrapper img{
+			width:90%;
+		}
+	}
+}
+
+.brand-side-wrapper{
+	.brand-side-logo{
+		width: 3%;
+		position: absolute;
+		top: 36%;
+		right: 1%;
+		margin-top: 11%;
+		.img{
+		width:50px;
+		margin: 9% 2%;
+		}
+	}	
+}
+
+.body-wrapper{
+	background-color: #e0e0e0;
+	padding: 7%;
+	overflow:hidden;
+	.body-left-wrapper{	
+		text-align:center;
+		#left-title{
+			font-size: 21px;
+			margin: 10% 0% 4% 0%;
+		}
+		#body-left-button{
+			margin-top:12%;
+		}
+	}
+	.body-center-wrapper{
+		text-align:center;
+		#center-title{
+			font-size: 21px;
+			margin: 10% 0% 4% 0%;
+		}
+		#body-center-button{
+			margin-top:12%;
+		}
+	}
+	.body-right-wrapper{
+		text-align:center;
+		#right-title{
+			font-size: 21px;
+			margin: 10% 0% 4% 0%;
+		}
+		#body-right-button{
+			margin-top:12%;
+		}
+	}
+}
+
+
+.third-wrapper{
+	float:left;
+}
+
+.third-body-wrapper{
+	padding:6%;
+}
+
+.fourth-wrapper{
+	float:left;
+	background-color: #e0e0e0;
+	width:100%;
+	padding: 4%;
+	h4{
+		float:left;
+	}
+	p{
+		float:right;
+	}
+	#email-wrapper{
+		clear:both;
+	}
+	#phone-wrapper{
+		clear:both;
+	}
+}
+
+.fifth-wrapper{
+	float:left;
+	width: 100%;
+	.fifth-wrapper-box{
+		margin:auto;
+		width:33%;
+		#box1, #box2, #box3{
+			width:100%;
+			background-color: #e0e0e0;
+		}
+		#box1{
+			margin-bottom: 10%;
+		}
+		#box2{
+			margin-bottom:10%;
+		}
+		#box3{
+			height: 187px;
+			margin-bottom:10%;
+		}
+		#fifth-button{
+			float:right;
+			.button-body{
+				padding: 3% 25%;
+			}
+		}
+	}
+}
